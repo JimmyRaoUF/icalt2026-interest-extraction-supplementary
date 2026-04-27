@@ -1,0 +1,24 @@
+# Never commit secrets
+.env
+.env.*
+*secret*
+*api_key*
+*apikey*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local settings
+.claude/
+
+# Node (if anyone adds tooling later)
+node_modules/
+
+# Logs
+*.log
